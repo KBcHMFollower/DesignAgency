@@ -1,0 +1,419 @@
+body {
+  font-size: 18px;
+  font-family: Open Sans;
+  font-weight: 300;
+}
+body h2 {
+  font-size: 36px;
+}
+body .btn {
+  padding: 15px 30px;
+}
+
+::placeholder {
+  color: #666666;
+  font-size: 18px;
+  font-family: Open Sans;
+  font-weight: 300;
+}
+
+.hello-section {
+  font-size: 24px;
+  color: white;
+  background: url("../img/hello-sec/bg.png") no-repeat center center fixed;
+  background-size: cover;
+}
+.hello-section .fill-div {
+  padding: 200px 0;
+  background: url("../img/hello-sec/fill.png") no-repeat center center fixed;
+  background-size: cover;
+}
+.hello-section .hello-section__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 0 200px;
+}
+.hello-section .hello-section__container h1 {
+  font-weight: bold;
+  font-size: 64px;
+  text-align: center;
+}
+.hello-section .hello-section__container p {
+  text-align: center;
+}
+.hello-section .hello-section__container .button-container {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.hello-section .hello-section__container .button-container .btn {
+  padding: 15px 25px;
+}
+.hello-section .hello-section__container .button-container .btn1 {
+  background-color: #9BCC37;
+  color: white;
+}
+.hello-section .hello-section__container .button-container .btn2 {
+  background-color: white;
+  color: #9BCC37;
+}
+
+.about-section {
+  margin: 100px 0;
+}
+.about-section .container .row .btn-light {
+  background-color: #00B7EC;
+  color: white;
+  padding: 15px;
+  width: 200px;
+}
+.about-section .container .row .btn-outline-info {
+  padding: 15px;
+}
+.about-section .container .row h2 {
+  color: #00B7EC;
+}
+.about-section .container .row .img-box {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.worth-section {
+  background-color: #E9E9E9;
+  padding: 100px 0;
+}
+.worth-section .carousel {
+  display: none;
+}
+.worth-section .card-line {
+  display: flex;
+}
+.worth-section h2 {
+  color: #00B7EC;
+}
+.worth-section .card {
+  margin-top: 80px;
+  text-align: center;
+  background: none;
+  border: none;
+}
+.worth-section .card h5 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+.worth-section .card p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.grow-section {
+  padding: 100px 0;
+  padding-bottom: 50px;
+  background: url("../img/Grow-sec/bg.png") no-repeat center center fixed;
+  background-size: cover;
+}
+.grow-section h2 {
+  margin-bottom: 60px;
+  color: #00B7EC;
+}
+
+.practice-sec {
+  color: white;
+  background: url("../img/prac-sec/bg.png") no-repeat center center fixed;
+  background-size: cover;
+}
+.practice-sec .fill-div {
+  padding: 100px 0;
+  background: url("../img/prac-sec/bg-fill.png") no-repeat center center fixed;
+  background-size: cover;
+}
+.practice-sec .fill-div .container h2 {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.practice-sec .fill-div .container .button-div {
+  display: flex;
+  justify-content: center;
+}
+.practice-sec .fill-div .container .button-div button {
+  background-color: #9BCC37;
+  color: white;
+  padding: 15px 70px;
+}
+
+.faq-sec {
+  padding: 100px 0;
+  background: url("../img/Grow-sec/bg.png") no-repeat center center fixed;
+  background-size: cover;
+  font-size: 18px;
+  font-family: Open Sans;
+}
+.faq-sec .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.faq-sec .container h2 {
+  color: #00B7EC;
+  margin-bottom: 50px;
+}
+.faq-sec .container .accordion-item {
+  background: none;
+  border: none;
+}
+.faq-sec .container .accordion-item .faq-open-bytton {
+  display: flex;
+  gap: 10px;
+}
+
+.form-sec {
+  padding: 100px 0;
+  background: url("../img/form-sec/bg.png") no-repeat center center fixed;
+  background-size: cover;
+}
+.form-sec .fill-div {
+  background: url("../img/form-sec/bg.png") no-repeat center center fixed;
+  background-size: cover;
+}
+.form-sec .fill-div form {
+  color: white;
+  margin: 0 150px;
+  padding: 50px 150px;
+  background: url("../img/form-sec/form-bg.png") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form-sec .fill-div form .textfield {
+  padding: 15px;
+}
+.form-sec .fill-div form h2 {
+  text-align: center;
+}
+.form-sec .fill-div form h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.form-sec .fill-div form .button-group {
+  display: flex;
+  gap: 5px;
+}
+.form-sec .fill-div form .button-group button {
+  flex-grow: 1;
+}
+.form-sec .fill-div form .button-group .submit-btn {
+  background-color: #9BCC37;
+  color: white;
+}
+.form-sec .fill-div form .button-group .submit-btn:hover {
+  background-color: #8a9e89;
+}
+.form-sec .fill-div form .button-group .file-btn {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #9BCC37;
+  color: #9BCC37;
+  background-color: white;
+}
+.form-sec .fill-div form .button-group .file-btn p {
+  margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    font-size: 14px;
+  }
+  body h2 {
+    font-size: 20px;
+  }
+  body .btn {
+    padding: 6px 6px;
+  }
+  .hello-section {
+    font-size: 14px;
+  }
+  .hello-section .fill-div {
+    padding: 100px 0;
+  }
+  .hello-section .hello-section__container {
+    gap: 5px;
+    padding: 0 50px;
+  }
+  .hello-section .hello-section__container h1 {
+    font-size: 30px;
+  }
+  .hello-section .hello-section__container .button-container {
+    width: 300px;
+  }
+  .hello-section .hello-section__container .button-container .btn {
+    font-size: 14px;
+    padding: 5px 5px;
+  }
+  .about-section {
+    margin: 100px 0;
+  }
+  .about-section .container .row .btn-light {
+    padding: 5px;
+    width: 200px;
+  }
+  .about-section .container .row .btn-outline-info {
+    padding: 5px;
+  }
+  .about-section .container .row .img-box {
+    display: none;
+  }
+  .worth-section {
+    padding: 100px 0;
+  }
+  .worth-section .card {
+    margin-top: 80px;
+  }
+  .worth-section .card h5 {
+    font-size: 18px;
+  }
+  .worth-section .card p {
+    font-size: 14px;
+  }
+  .form-sec .fill-div form {
+    color: white;
+    margin: 0 50px;
+    padding: 50px 50px;
+  }
+  .form-sec .fill-div form .textfield {
+    padding: 5px;
+  }
+  .form-sec .fill-div form h3 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .faq-sec {
+    font-size: 15px;
+  }
+  .faq-sec .container .img-div {
+    display: none;
+  }
+  .worth-section h2 {
+    text-align: center;
+  }
+  .worth-section .card-line {
+    display: none;
+  }
+  .worth-section .carousel {
+    display: block;
+  }
+  .worth-section .carousel .carousel-item .card-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 650px) {
+  body {
+    font-size: 16px;
+  }
+  body h2 {
+    font-size: 28px;
+  }
+  .hello-section {
+    font-size: 16px;
+  }
+  .hello-section .fill-div {
+    padding: 50px 0;
+  }
+  .hello-section .hello-section__container {
+    padding: 0 20px;
+  }
+  .hello-section .hello-section__container h1 {
+    font-size: 24px;
+  }
+  .hello-section .hello-section__container .button-container {
+    width: 300px;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .about-section {
+    margin: 50px 0;
+  }
+  .about-section .container .row h2 {
+    text-align: center;
+  }
+  .about-section .container .row .buttons {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .about-section .container .row .buttons .btn-light {
+    width: auto;
+  }
+  .worth-section {
+    background-color: #E9E9E9;
+    padding: 50px 0;
+  }
+  .grow-section {
+    padding: 50px 0;
+    padding-bottom: 25px;
+  }
+  .grow-section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .grow-section iframe {
+    width: 100%;
+  }
+  .practice-sec .fill-div {
+    padding: 50px 0;
+  }
+  .practice-sec .fill-div .container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .practice-sec .fill-div .container .button-div button {
+    padding: 15px 70px;
+  }
+  .faq-sec {
+    padding: 50px 0;
+  }
+  .faq-sec .container {
+    display: flex;
+    justify-content: start;
+  }
+  .faq-sec .container h2 {
+    color: #00B7EC;
+    margin-bottom: 25px;
+  }
+  .faq-sec .container .accordion-item {
+    background: none;
+    border: none;
+  }
+  .faq-sec .container .accordion-item .faq-open-bytton {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  .faq-sec .container .accordion-item .faq-open-bytton p {
+    text-align: start;
+  }
+  .form-sec {
+    padding: 25px 0;
+  }
+  .form-sec .fill-div form {
+    margin: 0;
+  }
+  .form-sec .fill-div form .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

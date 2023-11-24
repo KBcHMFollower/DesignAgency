@@ -1,0 +1,35 @@
+$background-color :#00B7EC
+    
+.header-nav
+    font-size: 18px
+    color: white
+    background-color: $background-color
+    .header-ul
+        display: flex
+        align-items: center
+        justify-content: space-between
+        flex-wrap: 'wrap'
+
+        list-style: none
+        .nav-item
+            button
+                background-color: white
+                color: $background-color
+    .mobile-ver
+        display: none
+
+@media only screen and (max-width: 1200px)
+    .header-nav
+        font-size: 14px
+@media only screen and (max-width: 1000px)
+    .header-nav
+        background-color: white
+        .header-ul
+            display: none
+        .mobile-ver
+            display: flex
+            justify-content: space-between
+        
+
+
+    
